@@ -55,6 +55,7 @@ div.contain2 div.linha-contain2{
     background-color: antiquewhite;
   
 }
+
 div.contain2 div.text-contain{
     width: 100%;
     height: 15vh;
@@ -79,11 +80,43 @@ div.contain2 div.text-contain{
 @media screen and (max-width: 768px)  {
     div.text-contain{
         font-size: 13px;
+        
     }
+    div.contain div.linha-contain{
+        width: 100%;
+    }
+    div.contain div.linha-contain img{
+        width: 80%;
+}
+}
+@media screen and (max-width: 608px)  {
+    div.contain div.linha-contain img{
+        width: 20%;
+}
+div.contain2 div.linha-contain2 img{
+    width: 30%;
+}
 }
 
 @media screen and (max-width: 468px)  {
     div.text-contain{
         font-size: 10px;
     }
+    div.contain div.linha-contain{
+        width: 100%;
+    }
+    div.contain div.linha-contain img{
+        display:none;
+    }
+    div.contain2 div.linha-contain2 img{
+        width: 30%;
+    }
+    @media screen and (max-width: 390px)  {
+        div.contain2 div.linha-contain2 img{
+        display: none;
+        }
+
+    }
+
+    
 }
