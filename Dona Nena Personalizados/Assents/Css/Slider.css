@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap");
+
+
+section {
+  width: 100%;
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  z-index: auto;
+}
+
+.swiper-slide {
+  width: 250px;
+  height: 350px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  filter: blur(1px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: self-start;
+
+}
+
+.swiper-slide-active {
+  filter: blur(0px);
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.swiper-slide span {
+  text-transform: uppercase;
+  color: #fff;
+  background: #1b7402;
+  padding: 7px 18px 7px 25px;
+  display: inline-block;
+  border-radius: 0 20px 20px 0px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.swiper-slide--one span {
+  background: #e88cc4;
+}
+
+.swiper-slide--two span {
+  background: #087ac4;
+}
+
+.swiper-slide--three span {
+  background: #b45205;
+}
+
+.swiper-slide--four span {
+  background: #da870c;
+}
+.swiper-slide--five span{
+  background: #62667f;
+}
+.swiper-slide--six span{
+  background-color: #a10505;
+}
+
+.swiper-slide h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  padding: 25px 45px 0 25px;
+}
+
+.swiper-slide p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 0 25px 35px 25px;
+}
+
+.swiper-slide svg {
+  color: #fff;
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+/*Slider inicial*/
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Agendas/imag1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Canecas/img2.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Toalhas/img3.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Garrafinhas/img4.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Copos/img5.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Camisas/img6.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide--seven {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Chaveiros/IMG7.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+
+
+
+
+
+
+
+/*Caderno*/
+
+.swiper-slide-one-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Agendas/imag1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-one-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Agendas/img1-1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-one-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Agendas/img1-2.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-one-four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Agendas/img1-3.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-one-five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Agendas/img1-4.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide-one-six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Agendas/img1-5.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide-one-seven {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Agendas/img1-6.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+
+
+
+
+/*Canecas*/
+.swiper-slide-two-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Canecas/img2-1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-two-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Canecas/img2.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-two-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Canecas/img2-3.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-two-four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Canecas/img2-4.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-two-five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Canecas/img2-5.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide-two-six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Canecas/img2-6.png)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide-two-seven {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Canecas/img2-2.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+
+
+/*Copos*/
+.swiper-slide-three-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Copos/img5-1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-three-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Copos/img5-2.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-three-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Copos/img5.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+
+/*Toalhas*/
+.swiper-slide-four-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Toalhas/img3-1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-four-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Toalhas/img3-2.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-four-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Toalhas/img3.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+
+/*Garrafinhas*/
+.swiper-slide-five-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Garrafinhas/img4-1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-five-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Garrafinhas/img4-2.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-five-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Garrafinhas/img4-3.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-five-four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Garrafinhas/img4.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-five-five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Garrafinhas/img4-4.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+/*Camisas*/
+.swiper-slide-six-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Camisas/img6-1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-six-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Camisas/img6-2.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-six-three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Camisas/img6-3.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-six-four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Camisas/img6-4.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-six-five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Camisas/img6-5.jpg)
+      no-repeat 50% 50% / cover;
+}
+.swiper-slide-six-six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Camisas/img6.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+
+/*Chaveiros*/
+.swiper-slide-seven-one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Chaveiros/img7-1.jpg)
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide-seven-two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url(../img/Chaveiros/IMG7.jpg)
+      no-repeat 50% 50% / cover;
+}
+
