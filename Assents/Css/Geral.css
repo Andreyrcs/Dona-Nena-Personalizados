@@ -65,6 +65,17 @@ div.contain2 div.text-contain{
     padding: 10px;
     color: #fa87b9;
 }
+
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: #fba9cc;
+  
+  }
+::-webkit-scrollbar-thumb{
+    background-color: antiquewhite;
+    border-radius: 7px;
+  }
+
 @media screen and (max-width: 768px)  {
     div.text-contain{
         font-size: 13px;
